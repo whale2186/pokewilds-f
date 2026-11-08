@@ -6,6 +6,16 @@ An unofficial PokeWilds v0.8.11 modification focused on multiplayer and quality-
 
 [Download client releases](https://github.com/whale2186/pokewilds-f/releases) · [Dedicated server](https://github.com/whale2186/pokewilds-f-server) · [Multiplayer guide](docs/MULTIPLAYER.md)
 
+## Screenshots
+
+Playing together on the same island.
+
+<img src="docs/screenshots/multiplayer.png" alt="Two players on the same island, with remote player names and the online player count" width="800">
+
+Chat and HUD in a narrower window. Press T to chat and F1 to show the HUD.
+
+<img src="docs/screenshots/chat-hud.png" alt="Multiplayer chat, player count and HUD controls in a narrow game window" width="480">
+
 ## Download and play
 
 Download the **v0.1.1** package for your operating system, then extract the entire archive into a writable folder. **Java 11 is bundled; no separate Java installation is needed.**
