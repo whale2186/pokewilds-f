@@ -35,7 +35,7 @@ Linux desktop execution and loopback multiplayer are tested. Windows package smo
 - Chat, player counts, player list and responsive HUD.
 - Battle icons beside player names and spectating with the normal battle layout.
 - Drop items from the bag as packs that other players can claim.
-- Exit from the start menu; Save is shown only in single-player.
+- Return to the main menu from the start menu; Save is shown only in single-player.
 - Dedicated persistence, server console commands, world generation and creature simulation.
 
 ## Controls
