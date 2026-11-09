@@ -30,10 +30,11 @@ Linux desktop execution and loopback multiplayer are tested. Windows package smo
 - Graphical LAN hosting and joining an independent headless dedicated server.
 - Shared terrain/world Pokémon with revision-checked atomic edits and conflict handling; private bags and parties.
 - Stable UUID player profiles that preserve progress when display names change.
+- Saved player name, character, clothing color and skin color.
 - Remote avatars, clothing/skin colors, followers and Pokémon field-action sprites.
 - Smoothed remote player and wild-Pokémon movement.
 - Chat, player counts, player list and responsive HUD.
-- Battle icons beside player names and spectating with the normal battle layout.
+- Player battles and spectating with the normal battle layout. Battle icons beside player names.
 - Drop items from the bag as packs that other players can claim.
 - Return to the main menu from the start menu; Save is shown only in single-player.
 - Dedicated persistence, server console commands, world generation and creature simulation.
