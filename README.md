@@ -12,18 +12,18 @@ An unofficial PokeWilds v0.8.11 modification focused on multiplayer and quality-
 
 ## Download and play
 
-Download the **v0.1.3** package for your operating system, then extract the entire archive into a writable folder. **Java 11 is bundled; no separate Java installation is needed.**
+Download the **v0.1.4** package for your operating system, then extract the entire archive into a writable folder. **Java 11 is bundled; no separate Java installation is needed.**
 
 | Platform | Download | Launch |
 |---|---|---|
-| Windows x64 | [Windows ZIP](https://github.com/whale2186/pokewilds-f/releases/download/v0.1.3/pokewilds-f-v0.1.3-windows-x64.zip) | Double-click `pokewilds-f.exe` |
-| Linux x64 (glibc) | [Linux tar.gz](https://github.com/whale2186/pokewilds-f/releases/download/v0.1.3/pokewilds-f-v0.1.3-linux-x64.tar.gz) | Run `./start-client.sh` or `bash start-client.sh` |
+| Windows x64 | [Windows ZIP](https://github.com/whale2186/pokewilds-f/releases/download/v0.1.4/pokewilds-f-v0.1.4-windows-x64.zip) | Double-click `pokewilds-f.exe` |
+| Linux x64 (glibc) | [Linux tar.gz](https://github.com/whale2186/pokewilds-f/releases/download/v0.1.4/pokewilds-f-v0.1.4-linux-x64.tar.gz) | Run `./start-client.sh` or `bash start-client.sh` |
 
 Keep `jre/`, `lib/`, `config/`, and the launcher together. Windows launchers are unsigned. To join multiplayer, choose **JOIN**, open **Servers (A)**, add the server's address and TCP port (default **54555**), and select it.
 
 Saves, settings and player identity are stored in the extracted folder's `runtime/`, not your home directory. Preserve that directory when upgrading. `PW_RUNTIME` can select an existing absolute runtime directory. Keep separate runtime directories for different local players. Windows client startup output is recorded in `runtime/launcher.log`.
 
-Linux desktop execution and loopback multiplayer are tested. Windows package smoke checks can be run under Wine; this does not establish native-Windows graphical compatibility. The client needs a working desktop/OpenGL environment; the dedicated server does not. No Android APK or macOS package is included in v0.1.3. Earlier portable v0.1.0 packages remain available and require a separately installed Java runtime.
+Linux desktop execution and loopback multiplayer are tested. Windows package smoke checks can be run under Wine; this does not establish native-Windows graphical compatibility. The client needs a working desktop/OpenGL environment; the dedicated server does not. No Android APK or macOS package is included in v0.1.4. Earlier portable v0.1.0 packages remain available and require a separately installed Java runtime.
 
 ## Features
 
@@ -79,7 +79,7 @@ bash scripts/dev.sh build
 bash scripts/dev.sh run
 python3 -m unittest discover -s tests -v
 python3 scripts/fetch-java-runtimes.py
-python3 scripts/package-release.py --version v0.1.3 --kind client --platform all
+python3 scripts/package-release.py --version v0.1.4 --kind client --platform all
 ```
 
 Compilation targets Java 8 bytecode. The tested execution environment is Java 11 on Linux. Graphical integration tests need a working X display. Platform packaging includes checksum-pinned Eclipse Temurin JREs with their notices; it excludes local saves, profiles and credentials. Windows .exe bootstraps are cross-compiled using `x86_64-w64-mingw32-gcc` (MinGW-w64).
